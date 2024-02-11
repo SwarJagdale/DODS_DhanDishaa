@@ -1,0 +1,105 @@
+.blog img {
+  width: 100%;
+  height: 27vh;
+  border-radius: 25px 25px 0px 0px;
+  
+}
+.blog .text {
+  padding: 40px 30px;
+  
+}
+.blog h1 {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 30px;
+  margin: 20px 0;
+  transition: 0.5s;
+}
+.blog h1:hover {
+  color: #1eb2a6;
+  cursor: pointer;
+}
+.blog span {
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #1eb2a6;
+}
+.blog span label {
+  margin-left: 10px;
+  color: grey;
+  font-size: 14px;
+}
+.blog span:nth-last-child(1) label {
+  color: #1eb2a6;
+}
+.blog p {
+  color: grey;
+}
+.items{
+  width: 20vw;
+  border-radius: 25px;
+  transition-duration: 0.3s;
+  background-color: rgb(241, 241, 241);
+  
+}
+.items:hover{
+transform: translate(-5px, -5px);
+box-shadow: 0 24px 36px -11px rgb(0 0 0 / 12%);
+}
+.grid2 button {
+border-color: #1eb2a6;
+border-style: solid;
+border-width: 2px;
+border-radius:10px;
+
+.blog{
+  background-color: black;
+
+}
+}
+
+.domainselect{
+  position: absolute;
+  transform: translateY(100%);
+  right: 10%;
+  height: 5vh;
+  width: 20%;
+
+  color: black;
+  background: linear-gradient(
+    157.81deg,
+    #def9fa -43.27%,
+    #bef3f5 -21.24%,
+    #9dedf0 12.19%,
+    #7de7eb 29.82%,
+    #5ce1e6 51.94%,
+    #33bbcf 90.29%
+  );
+
+  border-radius: 10px;
+  padding: 5px;
+  color: black;
+  font-size: 20px;
+  font-weight: 500;
+  transition: 0.5s;
+
+
+}
+.grid2 button:hover {
+  background-color: #1eb2a6;
+  color: black;
+  transition: 0.5s;
+ 
+}
+
+.videos2{
+
+width: 75vw;
+border-color: #1eb2a6;
+border-style: solid;
+border-width: 2px;
+border-radius:10px;
+margin: auto;
+margin-top: 5vh;
+padding: 20px;
+}

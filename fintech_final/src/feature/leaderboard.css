@@ -1,0 +1,38 @@
+/* Leaderboard.css */
+.leaderboard-container {
+    margin-top: 20px;
+  }
+  
+  .leaderboard-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Helvetica,sans serif;
+    font-size: 25px;
+  }
+  
+  .leaderboard-table th, .leaderboard-table td {
+    padding: 8px;
+    border: 1px solid #ccc; /* Light gray border */
+  }
+  
+  .leaderboard-table th {
+    background-color: #25bce2; /* Dark blue background */
+    color: #ffffff; /* White text */
+    font-weight: bold;
+    text-align: left;
+    font-size: 40px;
+    padding: 20px;
+    font-family: Popins, sans-serif;
+  }
+  
+  .leaderboard-table tr:nth-child(even) {
+    background-color: #ffffff; /* Light blue background for even rows */
+    color:black;
+    padding: 10px;
+  }
+  
+  .leaderboard-table tr:nth-child(odd) {
+    background-color: #ffffff; /* White background for odd rows */
+    color: black;
+  }
+  
